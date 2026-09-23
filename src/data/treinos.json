@@ -1,0 +1,157 @@
+{
+  "treinos": [
+    {
+      "id": "A",
+      "nome": "Treino A",
+      "foco": "Anterior de pernas",
+      "exercicios": [
+        {
+          "nome": "Cadeira extensora",
+          "series": 4,
+          "repeticoes": "20/15/12/10",
+          "videos": [
+            { "rotulo": "Cadeira extensora", "youtubeId": "", "busca": "cadeira extensora execução correta" }
+          ]
+        },
+        {
+          "nome": "Afundo",
+          "series": 4,
+          "repeticoes": "10 cada perna",
+          "videos": [
+            { "rotulo": "Afundo", "youtubeId": "", "busca": "afundo com halter execução correta" }
+          ]
+        },
+        {
+          "nome": "Agachamento livre",
+          "series": 4,
+          "repeticoes": "12",
+          "videos": [
+            { "rotulo": "Agachamento livre", "youtubeId": "", "busca": "agachamento livre com barra execução correta" }
+          ]
+        },
+        {
+          "nome": "Adutor com bola suíça",
+          "series": 3,
+          "repeticoes": "15",
+          "videos": [
+            { "rotulo": "Adutor com bola", "youtubeId": "", "busca": "adução de quadril com bola suíça" }
+          ]
+        },
+        {
+          "nome": "Abdominal supra",
+          "series": 4,
+          "repeticoes": "até a falha",
+          "videos": [
+            { "rotulo": "Abdominal supra", "youtubeId": "", "busca": "abdominal supra execução correta" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "nome": "Treino B",
+      "foco": "Superiores",
+      "exercicios": [
+        {
+          "nome": "Puxada pronada",
+          "series": 4,
+          "repeticoes": "15",
+          "videos": [
+            { "rotulo": "Puxada pronada", "youtubeId": "", "busca": "puxada frontal pronada execução correta" }
+          ]
+        },
+        {
+          "nome": "Crucifixo com halter",
+          "series": 4,
+          "repeticoes": "15",
+          "videos": [
+            { "rotulo": "Crucifixo com halter", "youtubeId": "", "busca": "crucifixo reto com halter execução correta" }
+          ]
+        },
+        {
+          "nome": "Desenvolvimento com halter",
+          "series": 4,
+          "repeticoes": "15",
+          "videos": [
+            { "rotulo": "Desenvolvimento com halter", "youtubeId": "", "busca": "desenvolvimento com halter sentado execução correta" }
+          ]
+        },
+        {
+          "nome": "Tríceps francês",
+          "series": 4,
+          "repeticoes": "15",
+          "videos": [
+            { "rotulo": "Tríceps francês", "youtubeId": "", "busca": "tríceps francês com halter execução correta" }
+          ]
+        },
+        {
+          "nome": "Bíceps alternado com halter",
+          "series": 4,
+          "repeticoes": "15",
+          "videos": [
+            { "rotulo": "Bíceps alternado", "youtubeId": "", "busca": "rosca alternada com halter execução correta" }
+          ]
+        },
+        {
+          "nome": "Abdominal infra",
+          "series": 4,
+          "repeticoes": "até a falha",
+          "videos": [
+            { "rotulo": "Abdominal infra", "youtubeId": "", "busca": "abdominal infra execução correta" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "nome": "Treino C",
+      "foco": "Posterior e glúteos",
+      "exercicios": [
+        {
+          "nome": "Abdução no cross",
+          "series": 4,
+          "repeticoes": "15",
+          "videos": [
+            { "rotulo": "Abdução no cross", "youtubeId": "", "busca": "abdução de quadril no cross over" }
+          ]
+        },
+        {
+          "nome": "Glúteo no cross perna estendida + glúteo no cross chute",
+          "series": 4,
+          "repeticoes": "12 + 12",
+          "observacao": "Bi-set: faça os dois em sequência, sem descanso.",
+          "videos": [
+            { "rotulo": "Perna estendida", "youtubeId": "", "busca": "glúteo no cross over perna estendida" },
+            { "rotulo": "Chute", "youtubeId": "", "busca": "glúteo no cross over coice chute" }
+          ]
+        },
+        {
+          "nome": "Elevação de quadril + agachamento livre",
+          "series": 4,
+          "repeticoes": "15 + 20",
+          "observacao": "Bi-set: faça os dois em sequência, sem descanso.",
+          "videos": [
+            { "rotulo": "Elevação de quadril", "youtubeId": "", "busca": "elevação de quadril com barra execução correta" },
+            { "rotulo": "Agachamento livre", "youtubeId": "", "busca": "agachamento livre com barra execução correta" }
+          ]
+        },
+        {
+          "nome": "Panturrilha sentado",
+          "series": 3,
+          "repeticoes": "15",
+          "videos": [
+            { "rotulo": "Panturrilha sentado", "youtubeId": "", "busca": "panturrilha sentado máquina execução correta" }
+          ]
+        },
+        {
+          "nome": "Lombar na máquina",
+          "series": 3,
+          "repeticoes": "12",
+          "videos": [
+            { "rotulo": "Lombar na máquina", "youtubeId": "", "busca": "extensão lombar na máquina execução correta" }
+          ]
+        }
+      ]
+    }
+  ]
+}
