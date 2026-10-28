@@ -19,9 +19,9 @@ núcleo** (`@mcp-imposto-de-renda/core`) e construir a camada de captura e extra
 por *git submodule* fixado num commit, ou por uma cópia do pacote `core` com a licença
 preservada.
 
-> Licença: a AGPL-3.0 permite usar e modificar. Se o sistema for **distribuído ou oferecido
-> como serviço a terceiros** (por exemplo, a clientes de um escritório), o código combinado
-> também precisa ser AGPL. Para uso próprio não há restrição. Decisão sua (ver § 5.6).
+> **Decisão (uso comercial):** como o projeto é AGPL-3.0, **não** vamos incorporar o código
+> dele. O sistema terá codec `.DBK` e motor próprios, escritos a partir do leiaute oficial. O
+> projeto AGPL fica só como oráculo de teste externo. Ver `08-uso-comercial-lgpd.md` § 8.1.
 
 ## 5.2 Fluxo
 
@@ -60,8 +60,8 @@ preservada.
 
 ## 5.3 Decisões técnicas
 
-- **Linguagem:** TypeScript/Node 22, para usar o núcleo existente sem ponte entre linguagens. O
-  OCR roda pelo Tesseract (binário local) e o PDF pelo `pdfjs-dist`.
+- **Linguagem:** TypeScript/Node 22, empacotado como executável Windows. O OCR roda pelo
+  Tesseract (binário local, idioma `por`) e o PDF pelo `pdfjs-dist`.
 - **Execução local:** os documentos fiscais não saem da máquina. Se for usado um LLM para extrair
   campos de documentos mal formatados, isso é **opcional** e explícito: o texto enviado é
   mostrado e pode ser anonimizado (CPF mascarado).
@@ -96,13 +96,24 @@ dirpf/
 └── test/fixtures/        ← documentos fictícios para testes
 ```
 
-## 5.6 Decisões que dependem de você
+## 5.6 Decisões tomadas (28/10/2026)
 
-1. **Sistema operacional** do computador onde o programa IRPF roda (Windows, Mac ou Linux).
-2. **Estado (UF)** do ITCMD: a pesquisa usou SP.
-3. **Uso:** só as suas declarações (e da família) ou de clientes? Isso afeta a licença AGPL, a
-   LGPD e o volume.
-4. **LLM na extração:** permitido (melhor precisão em recibos fora do padrão) ou 100% offline
-   (só regras + OCR)?
-5. **Exercício-alvo:** começar pela **DIRPF 2026** (retificadora/atrasada, motor já pronto) ou
-   ir direto para a **DIRPF 2027**?
+| Tema | Decisão | Consequência |
+| --- | --- | --- |
+| Sistema operacional | **Windows** | Instalador Windows; caminhos `%USERPROFILE%\Desktop` e pastas do PGD; Tesseract para Windows |
+| UF do ITCD | **RS** | Módulo ITCD-RS primeiro (`04-doacoes-itcmd.md` § 4.3), com tabela por UF para expandir |
+| Uso | **Comercial** | Codec e motor próprios (sem código AGPL); LGPD; uma pasta por cliente; trilha de auditoria |
+| OCR / IA | OCR local recomendado; IA na nuvem opcional por cliente, com mascaramento | Ver `08-uso-comercial-lgpd.md` (**aguarda sua confirmação**) |
+| Exercício | **DIRPF 2027** (AC 2026) | Regras da Lei 15.270 desde já; o leiaute definitivo chega com o PGD 2027 (por volta de mar/2027) |
+
+## 5.7 Exercício 2027: o que dá para fazer antes do PGD 2027
+
+- **Já dá:** coletor, classificador, extratores (os informes de 2026 que os clientes recebem em
+  fev/2027 seguem os modelos atuais), regras, motor 2027 (tabela, redução do art. 11-A, IRPFM,
+  dividendos) e o codec testado com o leiaute de 2026.
+- **Só com o PGD 2027:** ajustar o codec ao leiaute 2027 (normalmente mudam poucos registros:
+  novos campos, como os da tributação mínima), conferir o motor contra o programa e
+  homologar.
+- **Janela crítica:** do lançamento do PGD (fim de fev/mar de 2027) até o início da entrega.
+  O codec deve ser **dirigido por leiaute** (as posições ficam num arquivo de dados, não no
+  código), para que a atualização leve dias e não semanas.

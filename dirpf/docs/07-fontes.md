@@ -14,7 +14,7 @@ A pesquisa usou:
 
 Para completar a leitura direta, libere estes domínios em **Network access** nas configurações
 do ambiente: `www.gov.br`, `normas.receita.fazenda.gov.br`, `www.planalto.gov.br`,
-`downloadirpf.receita.fazenda.gov.br` e o portal da sua Sefaz. Depois disso dá para baixar os
+`downloadirpf.receita.fazenda.gov.br` e o portal da Receita Estadual RS (`receita.fazenda.rs.gov.br`, `estado.rs.gov.br`). Depois disso dá para baixar os
 5 P&R e marcar como conferidos os itens **[conferir]**.
 
 ## Fontes oficiais (para leitura direta)
@@ -38,6 +38,7 @@ do ambiente: `www.gov.br`, `normas.receita.fazenda.gov.br`, `www.planalto.gov.br
 - Offshore (Lei 14.754): [BMA](https://www.bmalaw.com.br/conteudo/direito-tributario/publicacoes/irpf-2025-temas-praticos-incluindo-impactos-da-nova-tributacao-dos-investimentos-offshore/pdf)
 - Doações no IRPF: [Portal Tributário: doador](https://www.portaltributario.com.br/irpf/como-o-doador-deve-declarar-as-doacoes-efetuadas-em.htm), [donatário](https://www.portaltributario.com.br/irpf/como-o-donatario-deve-declarar-as-doacoes-recebidas-em.htm), [Agência Gov: fundos](https://agenciagov.ebc.com.br/noticias/202504/como-destinar-parte-imposto-renda-fundos-criancas-adolescentes-idosos)
 - ITCMD-SP: [Operação Donatio](https://portal.fazenda.sp.gov.br/servicos/itcmd/Paginas/Operacao-Donatio.aspx), [RC 30926/2024](https://legislacao.fazenda.sp.gov.br/Paginas/RC30926_2024.aspx), [isenção não dispensa declaração (RC 33778/2026)](https://rotadajurisprudencia.com.br/2026/07/sefaz-sp-reafirma-que-isencao-do-itcmd-nao-dispensa-obrigacoes-acessorias/), [COAD: veículos](https://www.coad.com.br/home/noticias-detalhe/122701/mais-de-2-mil-doacoes-de-veiculos-estao-com-o-itcmd-pendente-em-sao-paulo)
+- ITCD-RS: [Barbieri Advogados](https://www.barbieriadvogados.com/itcd-rs/), [Schaan Advocacia (LC 227)](https://schaanadvocacia.com/itcmd-rs-tabela-calculo-lc-227/), [Governo RS: autorregularização](https://estado.rs.gov.br/programa-de-autorregularizacao-de-imposto-sobre-doacoes-declaradas-a-receita-federal-deve-recuperar-r-7-milhoes), [COAD: doações de 2021](https://www.coad.com.br/home/noticias-detalhe/137361/rs-inicia-programa-de-autorregularizacao-do-imposto-de-transmissao-sobre-doacoes-declaradas-em-2021), [Contábeis: holdings](https://www.contabeis.com.br/noticias/77480/sefaz-lanca-programa-de-autorregularizacao-de-itcd-para-holdings/)
 - LC 227/2026 (ITCMD): [Contábeis](https://www.contabeis.com.br/noticias/74671/reforma-tributaria-institui-normas-gerais-para-o-itcmd/), [Lefosse](https://lefosse.com/noticias/alerta/itcmd-lei-complementar-preve-mudancas-na-tributacao-de-doacao-e-herancas/)
 
 ## Projetos de referência (código aberto)
