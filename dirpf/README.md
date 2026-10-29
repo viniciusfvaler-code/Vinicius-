@@ -23,6 +23,7 @@ O sistema **nunca transmite** a declaração: a entrega é sempre sua, pelo prog
 
 | Arquivo | Conteúdo |
 | --- | --- |
+| [docs/00-resumo-da-conversa.md](docs/00-resumo-da-conversa.md) | Resumo da conversa, decisões e próximos passos |
 | [docs/01-legislacao.md](docs/01-legislacao.md) | Leis, decreto, INs de cada exercício e P&R |
 | [docs/02-regras-por-exercicio.md](docs/02-regras-por-exercicio.md) | Obrigatoriedade, tabelas, deduções e doações de 2022 a 2027 (Lei 15.270) |
 | [docs/03-documentos-para-fichas.md](docs/03-documentos-para-fichas.md) | Cada documento → ficha e código do programa |
